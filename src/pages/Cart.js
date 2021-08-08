@@ -5,12 +5,12 @@ export const Cart = () => {
     const {cart, setCart, cartPrice, setCartPrice, cartCount, setCartCount, saveForLater, setSaveForLater} = useCart();
 
     const addToCartHandler = (product) => {
+        const updatedSFL = removeFromCartHandler(saveForLater, product) || []        
         const updatedCart = addToCart(cart, product) 
-        updatedCart.map(item => {
-            setCartPrice(price => price + item.price)
-            setCartCount(count => count + 1)
-        })
-        setCart(updatedCart)      
+        setCartPrice(cartPrice + product.price)
+        setCartCount(cartCount + 1)
+        setCart(updatedCart)  
+        setSaveForLater(updatedSFL)    
     }
 
     const removeFromCartHandler = (product) => {
@@ -25,8 +25,8 @@ export const Cart = () => {
     const saveForLaterHandler = (product) => {
         const updatedCart = cart.filter(item => item.id !== product.id)
         setCart(updatedCart)
-        setCartPrice(price => price - (product.price * product.quantity))
-        setCartCount(count => count - product.quantity)
+        setCartCount(cartCount - product.quantity)
+        setCartPrice(cartPrice - (product.price * product.quantity))
         product = {...product, quantity: 0}
         setSaveForLater(items => [...items, product])
     }
