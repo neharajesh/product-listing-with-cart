@@ -8,7 +8,7 @@ export const CartProvider = ({ children }) => {
     const [cartPrice, setCartPrice] = useState(0)
     const [cartCount, setCartCount] = useState(0)
     return(<>
-        <CartContext.Provider value={{cart, setCart, cartPrice, setCartPrice, cartCount, setCartCount}}>
+        <CartContext.Provider value={{cart, setCart, cartPrice, setCartPrice, cartCount, setCartCount, saveForLater, setSaveForLater}}>
             {children}
         </CartContext.Provider>
     </>)
