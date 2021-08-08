@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": "prod001",
+            "name": "Unisex Black Tee",
+            "image": "https://media.gq.com/photos/602ea740bd99edcb6df933c0/master/w_1280%2Cc_limit/comfort.jpg",
+            "price": 1200,
+            "availableSizes": ["S", "M", "XL"],
+            "brand": "Zara",
+            "idealFor": ["Unisex"],
+            "quantity": 0
+        },
+        {
+            "id": "prod002",
+            "name": "Unisex White Tee",
+            "image": "https://qph.fs.quoracdn.net/main-qimg-19f833dceaee2568d64af38c565ea47d",
+            "price": 1200,
+            "availableSizes": ["S", "M", "L"],
+            "brand": "Zara",
+            "idealFor": ["Unisex"],
+            "quantity": 0
+        },
+        {
+            "id": "prod003",
+            "name": "Unisex Grey Tee",
+            "image": "https://kitranger.com/wp-content/uploads/2020/01/Unisex-Cotton-T-Shirt-Grey-Melange-Front-scaled.jpg",
+            "price": 1200,
+            "availableSizes": ["S", "L", "XL"],
+            "brand": "Zara",
+            "idealFor": ["Unisex"],
+            "quantity": 0
+        },
+        {
+            "id": "prod004",
+            "name": "Unisex Blue Tee",
+            "image": "https://the-collective.imgix.net/img/app/product/2/209829-657164.jpg?w=610&auto=format",
+            "price": 1200,
+            "availableSizes": ["M", "L", "XL"],
+            "brand": "Zara",
+            "idealFor": ["Unisex"],
+            "quantity": 0
+        },
+        {
+            "id": "prod005",
+            "name": "Pink Fluffy Sweater",
+            "image": "https://cdn.lookastic.com/pink-fluffy-crew-neck-sweater/filles-a-papa-chunky-knit-sweater-medium-356607.jpg",
+            "price": 1500,
+            "availableSizes": ["S", "M", "L", "XL"],
+            "brand": "Zara",
+            "idealFor": ["Women"],
+            "quantity": 0
+        },
+        {
+            "id": "prod006",
+            "name": "Black Shirt",
+            "image": "https://cdn.shopclues.com/images/thumbnails/84497/320/320/136908162-84497572-1525194995.jpg",
+            "price": 900,
+            "availableSizes": ["S", "M", "L"],
+            "brand": "Zara",
+            "idealFor": ["Men"],
+            "quantity": 0
+        },
+        {
+            "id": "prod007",
+            "name": "Black Leather Shoes",
+            "image": "https://4.imimg.com/data4/CU/MS/MY-8852934/men-leather-formal-shoe-500x500.jpg",
+            "price": 1900,
+            "availableSizes": ["M", "L", "XL"],
+            "brand": "Feet",
+            "idealFor": ["Men"],
+            "quantity": 0
+        },
+        {
+            "id": "prod008",
+            "name": "Black Heels",
+            "image": "https://s3-ap-southeast-2.amazonaws.com/assets-novo-co-nz/images/00bxt8831_w433_h433.jpg",
+            "price": 9000,
+            "availableSizes": ["M", "L", "S"],
+            "brand": "Feet",
+            "idealFor": ["Women"],
+            "quantity": 0
+        }
+    ]    
+}

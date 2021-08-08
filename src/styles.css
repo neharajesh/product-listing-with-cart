@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+/* Utilities */
+.w-25 { width: 25%; }
+.w-100 { width: 100%; }
+.mg-05 { margin: 0.5rem; }
+
+.topbarContainer {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightskyblue;
+}
+
+.navLinks {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navLink {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+}
+
+.layoutContainer {
+    height: 100vh;
+    width: 100vw;
+}
+
+.componentContainer {
+    height: 90vh;
+    width: 100vw;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+.productCardContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.productCard {
+    width: 20rem;
+    height: 30rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productName {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
+
+.productPrice {
+    padding: 0.5rem 0;
+    color: teal;
+    font-weight: bold;
+}
+
+.productImage {
+    width: 100%;    
+}
+
+.productDetails {
+    padding: 1rem;
+}
+
+.addCartButton {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+}
+
+.removeCartButton {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: grey;
+    border: none;
+    border-radius: 3px;
+}
+
+.horizontalCard {
+    width: 40rem;
+    height: 10rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.horizontalImage {
+    height: 100%;
+}
+
+.cartDetails {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.cartPage {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cartStats p{
+    margin: 1rem;
+    font-size: 1.2em;
+}
